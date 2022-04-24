@@ -31,6 +31,8 @@ def get_data_dim(dataset):
         return 25
     elif dataset == 'MSL':
         return 55
+    elif dataset == 'dbservice2':
+        return 183
     elif str(dataset).startswith('machine'):
         return 38
     else:
